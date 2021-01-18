@@ -14,6 +14,9 @@
 ![CSSVariables_300x150](https://user-images.githubusercontent.com/71039908/104845708-e48bf800-58e7-11eb-9e31-338ce223f184.jpg)
 
 
-### 4 - Array Cardio Day 1 : 'object.js' javascript dosyasında bulunan Person class'ı içerisinde ki "inventors" ve "people" objeleri ile bir çok farklı array kullanarak işlem yapılmaktadır.
+  ### 4 - Array Cardio Day 1 : 'object.js' javascript dosyasında bulunan Person class'ı içerisinde ki "inventors" ve "people" objeleri ile bir çok farklı array kullanarak işlem yapılmaktadır.
 ![arrrayCardio1_300x150](https://user-images.githubusercontent.com/71039908/104845709-e5248e80-58e7-11eb-92ca-81704746a68b.jpg)
 
+  ### 5 - Flex Panel Gallery : Ayrı ayrı küçültülmüş fotoğrafları mouse ile "click" yaptığımızda yeniden boyutlandırır.
+  
+![05FlexPanelGallery_300x150](https://user-images.githubusercontent.com/71039908/104903849-92071600-5991-11eb-92a9-6fcb1c694d4f.jpg)
