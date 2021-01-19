@@ -22,6 +22,6 @@
 ![05FlexPanelGallery_300x150](https://user-images.githubusercontent.com/71039908/104903849-92071600-5991-11eb-92a9-6fcb1c694d4f.jpg)
 
 
-  ### 6 - Type Ahead : 'fetch' ve 'RegEx' tasarladığım arayüze Türkiye´nin şehirlerini ve bölgelerini arama yaparak listelenmesini sağladım. Kullandığım json dosyasını @ozdemirburak adlı github kullanıcısının cities_of_turkey.json çalışmasından aldım.
+  ### 6 - Type Ahead : 'fetch' ve 'RegEx' ile tasarladığım arayüze Türkiye´nin şehirlerini ve bölgelerini arama yaparak listelenmesini sağladım. Kullandığım json dosyasını @ozdemirburak adlı github kullanıcısının cities_of_turkey.json çalışmasından aldım.
   
 ![6TypeAhead_300x150](https://user-images.githubusercontent.com/71039908/105067972-62d7ce00-5a91-11eb-8877-99b32c454aea.jpg)
