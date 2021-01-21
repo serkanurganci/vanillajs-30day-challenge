@@ -25,3 +25,8 @@
   ### 6 - Type Ahead : 'fetch' ve 'RegEx' ile tasarladığım arayüze Türkiye´nin şehirlerini ve bölgelerini arama yaparak listelenmesini sağladım. Kullandığım json dosyasını @ozdemirburak adlı github kullanıcısının cities_of_turkey.json çalışmasından aldım.
   
 ![6TypeAhead_300x150](https://user-images.githubusercontent.com/71039908/105067972-62d7ce00-5a91-11eb-8877-99b32c454aea.jpg)
+
+
+  ### 7 - Fun with HTML5 Canvas : HTML5 Canvas ve JavaScript getContext("2d") methodu ile birlikte oluşturuldu. Mouse basılı tutulduğu sürece çizgi boyutu değiştirir ve rainbow çizgiler çizmenizi sağlar.
+  
+  ![HTML5Canvas_300x150](https://user-images.githubusercontent.com/71039908/105406807-fb12b600-5c3d-11eb-813c-2d5a33a8e31c.jpg)
