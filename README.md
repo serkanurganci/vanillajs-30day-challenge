@@ -30,3 +30,9 @@
   ### 7 - Fun with HTML5 Canvas : HTML5 Canvas ve JavaScript getContext("2d") methodu ile birlikte oluşturuldu. Mouse basılı tutulduğu sürece çizgi boyutu değiştirir ve rainbow çizgiler çizmenizi sağlar.
   
   ![HTML5Canvas_300x150](https://user-images.githubusercontent.com/71039908/105406807-fb12b600-5c3d-11eb-813c-2d5a33a8e31c.jpg)
+  
+  ### 8 - Dev Tools Domination : Yazılımcılar için çok önemli olan development tools ile alıstırmalar yapıldı.
+  
+  ![DevToolsDomination_300x150](https://user-images.githubusercontent.com/71039908/105540979-2530aa80-5d08-11eb-9928-82c997ed7bc5.jpg)
+
+  
