@@ -38,6 +38,10 @@
   
   ![DevToolsDomination_300x150](https://user-images.githubusercontent.com/71039908/105540979-2530aa80-5d08-11eb-9928-82c997ed7bc5.jpg)
 
-  # 10 - Hold Shift and Check Checkboxes : Basit bir mail uygulaması simüle edildi. Shift tuşuna basılarak birçok checkbox seçilebilmesi sağlandı.
+  ### 10 - Hold Shift and Check Checkboxes : Basit bir mail uygulaması simüle edildi. Shift tuşuna basılarak birçok checkbox seçilebilmesi sağlandı.
   
 ![10HoldShiftandCheckCheckboxes](https://user-images.githubusercontent.com/71039908/105573657-31505280-5d70-11eb-9333-830251e4b02d.gif)
+
+  ### 11 - Custom Video Player : Ses ve çalma hızı özelliklerini içeren bir video player.
+![11CustomVideoPlayer_300x150](https://user-images.githubusercontent.com/71039908/105628056-9c228c00-5e4b-11eb-9534-d36d43263280.jpg)
+
