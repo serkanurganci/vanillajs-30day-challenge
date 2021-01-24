@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Sequence Detection</title>
+    <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
+</head>
+<body>
+    <script>
+        const pressed = [];
+        const secretCode = 'serkan';// parola
+
+        window.addEventListener('keyup',(e)=>{
+            console.log(e.key)
+            pressed.push(e.key)//Tum harfleri pressed arrayine gonder
+            pressed.splice(-secretCode.length-1,pressed.length - secretCode.length)//Her yeni harf eklemesinde pressed Arrayinde olan ilk harfi at.
+            if(pressed.join('').includes(secretCode)){//arrayda ki tum harfleri tek bir icerik haline getirip gizli kod ile eslesip eslesmedigine bak.
+                console.log('Basarili')
+                cornify_add(); // eslesme basarili ise ekrana cizimler getiriyor
+            }
+            console.log(pressed)
+        })
+    </script>
+</body>
+</html>
