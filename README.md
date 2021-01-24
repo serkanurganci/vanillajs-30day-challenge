@@ -45,3 +45,5 @@
   ### 11 - Custom Video Player : Ses ve çalma hızı özelliklerini içeren bir video player.
 ![11CustomVideoPlayer_300x150](https://user-images.githubusercontent.com/71039908/105628056-9c228c00-5e4b-11eb-9534-d36d43263280.jpg)
 
+  ###12 - Key Sequence Detection : Verilen anahtar kelime doğru girildiği taktirde ekranda Unicorn ve Rainbow oluşturur.
+![KeySequenceDetection_300x150](https://user-images.githubusercontent.com/71039908/105641975-ddd92400-5e97-11eb-84c2-fbe097562c8a.jpg)
