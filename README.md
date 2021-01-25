@@ -49,3 +49,8 @@
   ###12 - Key Sequence Detection : Verilen anahtar kelime doğru girildiği taktirde ekranda Unicorn ve Rainbow oluşturur.
   
 ![KeySequenceDetection_300x150](https://user-images.githubusercontent.com/71039908/105641975-ddd92400-5e97-11eb-84c2-fbe097562c8a.jpg)
+
+  ###13 - Slide In On Scroll : Web sayfasında aşağı scroll aşağı çekildiği taktirde sayfada bulunan fotoğrafların bir animasyon ile ekrana gelmesini sağlar.
+
+![SlideinonScroll_300x150](https://user-images.githubusercontent.com/71039908/105759411-7e474b00-5f61-11eb-9bf8-ac9456bade05.jpg)
+
