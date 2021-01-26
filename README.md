@@ -54,3 +54,7 @@
 
 ![SlideinonScroll_300x150](https://user-images.githubusercontent.com/71039908/105759411-7e474b00-5f61-11eb-9bf8-ac9456bade05.jpg)
 
+  ###14 - JavaScript References VS Copying : Değer tipler ile referans tipler arasında ki farklar açıklamalı bir şekilde yazıldı ve örneklendirildi.
+  
+![ReferencesvsCopying_300x150](https://user-images.githubusercontent.com/71039908/105861271-98376b00-5fff-11eb-9f1f-9530975a54f7.jpg)
+
