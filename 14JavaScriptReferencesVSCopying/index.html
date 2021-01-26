@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>references vs copying</title>
+</head>
+<body>
+  <script>
+     //Values Types (deger tipleri) number-string-boolean....
+     //Values Types (deger tipleri) hafizanin stack bolumunde tutulurlar ve aslinda sadece takma bir isim gibi gorev gormektedirler.
+     //ornek let age = 100 dedigimizde aslinda bellekte tutulan 100 sayisidir. age sadece onun takma ismidir.
+     //Bu yuzden age2= age dedimizde aslinda yaptigimiz bellekte yeni bir 100 olusturup onun takma ismini age2 yapmaktir.
+     //Boylelikle age = 200 yaptigimizde age2 nin degerinde herhangi bir degisiklik olmayacaktir.
+   let age = 100; 
+   let age2 = age;
+   age = 200
+   console.log(age) // cikti = 200
+   console.log(age2)// cikti =  100
+
+
+   let name = 'serkan';
+   let name2 = name;
+   console.log(name,name2) // cikti = serkan , serkan
+   name = 'burak';
+   console.log(name,name2)// cikti = burak , serkan
+
+
+   //Reference types(referans tipleri) array, class, object ...
+    //Referans tiplerde ise deger tiplerinden farkli bir durum soz konusudur.
+    //Referans tipleri olusturdugumuzde tanim ismi yine ayni sekilde stackte yer alir.
+    //Ancak degerin kendisi bellegin heap dedigimiz farkli bir kisminda tutulmaktadir ve stackte tanimladigimiz isim
+    //heap kizminda ki degeri referans olarak alir ve gosterir.
+    //Ornek olarak olusturdugumuz players arrayini team degiskenine kopyaliyoruz.
+    //ardindan teamin 3. indexini 'Sami' olarak degistiriyoruz.
+    //players arrayini yazdirmak istedigimizde 3. indexte sami yaziyor.
+    //iste bunun nedeni aslinda sadece heapte tutulan degerin degismesi players ve team degiskenlerinin ayni degeri referans olarak gostermesidir.
+    // Diyelim ki bir array'imiz var
+    const players = ['Serkan', 'Mehmet', 'Ibrahim', 'Eser'];
+
+    // Ve bunun bir kopyasini yaptik
+    const team = players
+    
+
+    
+    team[3] = 'Sami'
+    console.log(players,team) // cikti =['Serkan', 'Mehmet', 'Ibrahim', 'Sami'] , ['Serkan', 'Mehmet', 'Ibrahim', 'Sami']
+
+    //iki degiskeninde heapte uretilen ayni degeri referans olarak gostermekteydi.
+    //Yani yeni bir degere referans degerler kopyalandiginda bellekte yeni bir array olusmamaktadir.
+    //burada goruldugu gibi arrayi slice() methodu sayesinde team2 nin icerisine kopyaladik ve bellekte yeni bir array olusturduk.
+    //bu yuzden playerde yaptigimiz herhangi bir degisiklik team2 degiskeninin tuttugu arrayi etkilemeyecek
+    const team2 = players.slice()
+    players[3] = 'Batuhan'
+    console.log(players,team2) // cikti = ['Serkan', 'Mehmet', 'Ibrahim', 'Batuhan'] , ['Serkan', 'Mehmet', 'Ibrahim', 'Sami']
+    
+
+    //array kopyalamak icin baska secenekler
+    const team3 = [].concat(players)
+    console.log(team3)
+  
+    const team4 = [...players]; // spread operatoru
+    team4[3] = 'hee hawwwww'
+    console.log(team4);
+    const team5 = Array.from(players)
+    console.log(team5)
+
+  
+
+    // Benzer islemleri obje ile yapalim : 
+    const person = {
+      name: 'Serkan',
+      age: 25
+    };
+
+    //obje kopyalama islemi
+    const captain = person;
+    captain.number = 99;
+    
+    const captain2 = Object.assign({}, person, {number:99,age:12}); // object ozelliklerini degistirerek degiskene atama 
+    console.log(captain2) //cikti name:"Serkan" , age:12, number:99
+ 
+    const captain3 = {...person}//spread operatoru
+    console.log(captain3)
+    
+
+    const mySelf = {
+    	name:"Serkan",
+    	age:25,
+    	social:{
+    		twitter:'@S_urganci',
+    		instagram:'@serkanurganci'
+    	}
+    }
+
+
+    console.log(mySelf)
+    mySelf.name = 'Serkan Urganci'
+    const dev = Object.assign({},mySelf)
+    const dev2 = JSON.parse(JSON.stringify(mySelf))
+    console.log(dev,dev2)
+    
+  </script>
+</body>
+</html>
