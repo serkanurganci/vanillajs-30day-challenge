@@ -58,3 +58,6 @@
   
 ![ReferencesvsCopying_300x150](https://user-images.githubusercontent.com/71039908/105861271-98376b00-5fff-11eb-9f1f-9530975a54f7.jpg)
 
+  ###15 - Local Storage : Oluşturulan bir menüye yiyecek ve içecek ekleme,silme ve seçme fonksiyonları oluşturuldu. Eklenen ve silinen itemler localStorage ilede işleme alındı.
+
+![15LocalStorage_300x150](https://user-images.githubusercontent.com/71039908/106048688-40c7f680-60f6-11eb-9d14-5be58d5cc387.jpg)
