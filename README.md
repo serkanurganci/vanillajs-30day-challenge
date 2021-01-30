@@ -65,3 +65,7 @@
   ###16 - Mouse Move Shadow : Mouse hareketlerini algılayarak hedeflediğimiz html elementinin gölgeleri otomatik yönlendiriliyor.
 
 ![16MouseMove_300x150](https://user-images.githubusercontent.com/71039908/106192294-0b3a1080-61bd-11eb-95e8-b627c88ed757.jpg)
+
+  ###17 - Sort Without Articles : sort methodu ve regEx ile array icerisinde bulunan objeleri baslarinda ki article lari yok sayarak alfabetik siraya gore siralanmasini saglar.
+  
+![17_300x150](https://user-images.githubusercontent.com/71039908/106356838-9af1d300-6313-11eb-9dce-d0682cbfb3b1.jpg)
