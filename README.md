@@ -69,3 +69,7 @@
   ###17 - Sort Without Articles : sort methodu ve regEx ile array icerisinde bulunan objeleri baslarinda ki article lari yok sayarak alfabetik siraya gore siralanmasini saglar.
   
 ![17_300x150](https://user-images.githubusercontent.com/71039908/106356838-9af1d300-6313-11eb-9dce-d0682cbfb3b1.jpg)
+
+  ###18 - Adding Up Times with Reduce : li elementleri içerisinde data-time ile verilen süreleri saat:dakika:saniye formatına çevirerek, reduce methodu ile hepsinin toplamı alındı.
+
+![18_300x150](https://user-images.githubusercontent.com/71039908/106380197-9f74c500-63c1-11eb-91a7-55d5310dd5a9.jpg)
