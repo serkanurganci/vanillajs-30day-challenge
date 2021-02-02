@@ -73,3 +73,8 @@
   ###18 - Adding Up Times with Reduce : li elementleri içerisinde data-time ile verilen süreleri saat:dakika:saniye formatına çevirerek, reduce methodu ile hepsinin toplamı alındı.
 
 ![18_300x150](https://user-images.githubusercontent.com/71039908/106380197-9f74c500-63c1-11eb-91a7-55d5310dd5a9.jpg)
+
+
+  ###19 - Webcam Fun : Tarayıcı üzerinde tanımlı kamera ile görüntü renk ayarları ile filtre yapılabilir. Fraps ayarıda yapılabilmektedir. Fotoğraf çekme özelliği bulunmaktadır.
+
+ ![19_300x150](https://user-images.githubusercontent.com/71039908/106615166-3639b100-657d-11eb-9374-c1da53102e7a.jpg)
