@@ -78,3 +78,12 @@
   ###19 - Webcam Fun : Tarayıcı üzerinde tanımlı kamera ile görüntü renk ayarları ile filtre yapılabilir. Fraps ayarıda yapılabilmektedir. Fotoğraf çekme özelliği bulunmaktadır.
 
  ![19_300x150](https://user-images.githubusercontent.com/71039908/106615166-3639b100-657d-11eb-9374-c1da53102e7a.jpg)
+
+  ###20 Speech Detection : Mikrofon yardımı ile söylenen cümle ve kelimeleri ekrana yazdırır.
+  
+  ![20](https://user-images.githubusercontent.com/71039908/106922142-c878bb00-671d-11eb-8370-55e9d232d692.jpg)
+
+
+  ###21 Geo Location : Navigasyon özelliğini kullanarak pusula ile yön gösterir.(GPS olan ortamlarda çalışmaktadır.)
+
+  ![21](https://user-images.githubusercontent.com/71039908/106922179-d4647d00-671d-11eb-98bc-1fdfbf2b134b.jpg)
