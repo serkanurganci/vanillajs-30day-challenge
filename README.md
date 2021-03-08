@@ -108,7 +108,7 @@
  
  ### 26 Stripe Follow Along Nav
  
- ![26](https://user-images.githubusercontent.com/71039908/110374632-f2493880-8061-11eb-99bd-c0324b4a3b9e.jpg)
+ ![26](https://user-images.githubusercontent.com/71039908/110375318-e01bca00-8062-11eb-85dc-850399846ac6.jpg)
  
  ### 27 Click and Drag
  
